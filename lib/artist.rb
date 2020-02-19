@@ -16,13 +16,12 @@ class Artist
   end
   
   def songs 
-    binding pry
+    
     @songs
   end
   
-  def add_song(add_new)
-    @songs << add_new
-    @songs
+  def add_song(name)
+    binding pry
   end
   
   def self.find_or_create_by_name(name)
