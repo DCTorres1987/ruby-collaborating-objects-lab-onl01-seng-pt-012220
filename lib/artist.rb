@@ -17,8 +17,7 @@ class Artist
   
   def songs 
   Song.all.find_all do |song|
-    binding.pry 
-    song.artist
+      song.artist == self 
     end
   end
   
