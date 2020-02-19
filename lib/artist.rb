@@ -19,7 +19,7 @@ class Artist
 
   end
   
-  def add_song(name)
+  def add_song(song)
     binding pry
   end
   
