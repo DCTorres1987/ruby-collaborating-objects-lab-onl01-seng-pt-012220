@@ -4,12 +4,15 @@ class MP3Importer
   @@all = []
   
   def initialize(path)
-    @name = name 
+    @name = path 
     @@all << self 
   end 
   
   def self.all 
     @@all 
   end 
+  
+  def files 
+end
   
 end 
