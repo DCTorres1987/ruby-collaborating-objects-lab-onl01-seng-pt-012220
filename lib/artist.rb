@@ -19,7 +19,7 @@ class Artist
   Song.all.find_all do |song|
     binding.pry 
     song.artist
-
+    end
   end
   
   def add_song(song)
