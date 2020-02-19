@@ -31,7 +31,6 @@ class Artist
   
   def self.find_by_name(name)
     @@all.find {|artist| artist.name == name}
-    end
   end
   
   def self.create_by_name(name)
@@ -41,7 +40,6 @@ class Artist
   
   def print_songs 
     songs.each {|song| puts song.name}
-    end
   end
   
 end
