@@ -16,24 +16,11 @@ class Artist
   end
   
   def songs 
-    
-    @songs
+
   end
   
   def add_song(name)
     binding pry
   end
-  
-  def self.find_or_create_by_name(name)
-      self.name.find do |artist|
-      if artist.name == name
-         name 
-      else 
-        new_artist = Artist.new(name)
-        new_artist
-      end
-    end
-    binding pry
-  end 
   
 end
